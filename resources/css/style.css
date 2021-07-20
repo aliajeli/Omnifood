@@ -187,3 +187,49 @@ header {
 .main-nav li a:active {
 	border-bottom: 2px solid #cf6d17;
 }
+/* ------------------------------------- */
+/* FEATURES */
+/* ------------------------------------- */
+
+.section-features .long-copy {
+	margin-bottom: 30px ;
+}
+
+/* ------------------------------------- */
+/* ‌MEALS */
+/* ------------------------------------- */
+
+.section-meals {
+	padding: 0;
+}
+
+.meals-showcase {
+	list-style: none;
+	width: 100%;
+}
+
+.meals-showcase li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.meal-photo {
+	background: #000;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+.meal-photo img {
+	opacity: 0.7;
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+	opacity: 1;
+	transform: scale(1.03);
+}
